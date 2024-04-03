@@ -1,0 +1,35 @@
+label {
+    font-size: 1.2rem;
+    color: #222;
+    font-weight: 600;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='number'],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 1px solid #333;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+}
+
+input[type='submit'] {
+    width: 100%;
+    background-color: blue;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid blue;
+    border-radius: 20px;
+    cursor: pointer;
+}
+input[type='submit']:hover {
+    background-color: #fff;
+    color: blue;
+}

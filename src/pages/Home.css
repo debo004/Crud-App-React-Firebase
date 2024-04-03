@@ -1,0 +1,50 @@
+.styled-table {
+    margin: auto;
+    font-size: 20px;
+    max-width: 1500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+}
+.styled-table thead tr {
+    background-color: blue;
+    color: #fff;
+    font-weight: 600;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 15px 20px;
+}
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #ddd;
+}
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid blue;
+}
+
+.btn {
+    cursor: pointer;
+    color: #fff;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 4px 2px;
+    border: none;
+}
+.btn-edit {
+    background-color: skyblue;
+    color: #fff;
+}
+.btn-dlt {
+    background-color: red;
+    color: #fff;
+}
+.btn-view {
+    background-color: #aaa;
+    color: #fff;
+}
